@@ -9,7 +9,7 @@
 #    sleep 5
 #  else
 #    echo "creating jupyter"
-#    nohup docker run -it \
+#    nohup docker run \
 #      -v $HOME/Documents/jupyter:/home/jupyter/notebooks \
 #      -p 8888:8888 \
 #      --name jupyter \
